@@ -1,6 +1,8 @@
 FROM nginx:stable-alpine
 MAINTAINER Mario Nebl <mario.nebls@sinnerschrader.com>
 
+# triggered build: 2.1
+
 ENV APP_PKGS="ca-certificates"
 ENV BUILD_PKGS="wget"
 
